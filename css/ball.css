@@ -1,0 +1,41 @@
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 300px;
+  transition-property: background-color, width, height;
+  transition-delay: 0s, 2s, 4s;
+  transition-duration: 2s;
+
+  /*animation-name: bounce;
+  animation-iteration-count: 2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes bounce {
+  50% {
+    top: 0px;
+    background-color: orange;
+  }
+  90% {
+    top: 300px;
+    background-color: aqua;
+  }
+  95% {
+    top: 290px;
+  }
+
+  100% {
+    top: 300px;
+    background-color: blueviolet;
+  }*/
+}
+
+.ball:hover {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}

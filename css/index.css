@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 400px;
+  margin: auto;
+  min-height: 100vh;
+  color: white;
+  background-color: #444;
+  overflow-x: hidden;
+}
+main {
+  width: 400px;
+  position: relative;
+  left: -1000px;
+  animation: fly-in 2z forwards;
+}
+
+@keyframes fly-in {
+  100% {
+    left: 0px;
+  }
+}
+
+.call-to-action {
+  color: white;
+  background-color: #c0055c;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+  transition: width 2s;
+}
+
+.call-to-action:hover {
+  width: 300px;
+}
